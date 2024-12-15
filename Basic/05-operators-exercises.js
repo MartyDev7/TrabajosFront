@@ -62,10 +62,20 @@ console.log(32 !== c)
 console.log(!(a == b))
 
 // 4. Imprime 5 comparaciones falsas con diferentes operadores de comparación
+console.log(a == b)
+console.log(c > b)
+console.log(a >= c)
+console.log(b === a)
+console.log(c === a)
 
 // 5. Utiliza el operador lógico and
+console.log("and")
+console.log(a >= b && c < b)
+
 
 // 6. Utiliza el operador lógico or
+console.log("or")
+console.log(a == b )
 
 // 7. Combina ambos operadores lógicos
 
