@@ -31,7 +31,35 @@ console.log("El exponente de: " + a + " a la " + b +" es: " + exponente)
 // 2. Crea una variable para cada tipo de operación de asignación,
 //    que haga uso de las variables utilizadas para las operaciones aritméticas
 
+let newVariable = 15
+newVariable += suma
+console.log("The new summation variable is: " + newVariable)
+
+newVariable -= resta
+console.log("The new subtraction variable is: " + newVariable)
+
+newVariable *= multiplicacion
+console.log("The new multiplication variable is: " + newVariable)
+
+newVariable /= division
+console.log("The new division variable is: " + newVariable)
+
+newVariable %= modulo
+console.log("The new module variable is: " + newVariable)
+
+newVariable **= exponente
+console.log("The new exponent value is: " + newVariable)
+
 // 3. Imprime 5 comparaciones verdaderas con diferentes operadores de comparación
+console.log("Operadores de comparacion")
+
+c = "32"
+console.log(a < c)
+console.log(a != c)
+newVariable = c
+console.log(c == newVariable)
+console.log(32 !== c)
+console.log(!(a == b))
 
 // 4. Imprime 5 comparaciones falsas con diferentes operadores de comparación
 
